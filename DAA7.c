@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-max( int a, int b)
+int max( int a, int b)
 	{
 	if(a>b)
 	return a;
@@ -9,7 +9,7 @@ max( int a, int b)
 	return b;
 	}
 
-lcs(char x[100], char y[100], int m,int n)
+void lcs(char x[100], char y[100], int m,int n)
 	{
 	int len,i,j,L[100][100];
 	char lc[100];
